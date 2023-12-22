@@ -1,5 +1,12 @@
 {
   "version": 1,
   "isRoot": true,
-  "tools": {}
+  "tools": {
+    "ironpython.console": {
+      "version": "3.4.1",
+      "commands": [
+        "ipy"
+      ]
+    }
+  }
 }
