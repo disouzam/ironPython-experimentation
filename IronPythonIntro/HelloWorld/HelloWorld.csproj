@@ -11,4 +11,10 @@
     <PackageReference Include="IronPython" Version="3.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="scriptFile.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
