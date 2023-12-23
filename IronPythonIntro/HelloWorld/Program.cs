@@ -7,7 +7,7 @@ internal class Program
     static void Main(string[] args)
     {
         var basePath = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory);
-        var scriptFilePath = Path.Combine(basePath.FullName, "scriptFile.py");
+        var scriptFilePath = Path.Combine(basePath.FullName, "PythonScripts", "scriptFile.py");
 
         var scriptContent = File.ReadAllText(scriptFilePath);
 
