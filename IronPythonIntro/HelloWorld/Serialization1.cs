@@ -1,6 +1,6 @@
 ﻿namespace HelloWorld;
 
-internal class Serialization1
+internal static class Serialization1
 {
     public static void Run()
     {
