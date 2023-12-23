@@ -14,11 +14,11 @@ print("This is the type of students:")
 print(type(students))
 
 print("Writing students to file...")
-with open('student_info.txt', 'w') as data:
+with open(file="student_info.txt", mode="w", encoding="utf8") as data:
     data.write(str(students))
 
 print("Reading students to file...")
-with open("student_info.txt", 'r') as f:
+with open("student_info.txt", mode="r", encoding="utf8") as f:
     for students in f:
         print(students)
 
