@@ -9,10 +9,11 @@
 
   <ItemGroup>
     <PackageReference Include="IronPython" Version="3.4.0" />
+    <PackageReference Include="IronPython.StdLib" Version="3.4.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="PythonScripts\scriptFile.py">
+    <None Update="PythonScripts\*.py">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

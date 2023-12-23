@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "dotnet",
-        "settings"
+        "settings",
+        "style"
     ]
 }
