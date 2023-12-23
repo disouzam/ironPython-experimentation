@@ -11,7 +11,11 @@
 #endif
 
 #if !SERIALIZATION3
-#define SERIALIZATION3
+//#define SERIALIZATION3
+#endif
+
+#if !SERIALIZATION4
+#define SERIALIZATION4
 #endif
 
 namespace HelloWorld;
@@ -43,6 +47,10 @@ internal static class Program
 
 #if SERIALIZATION3
         Serialization3.Run();
+#endif
+
+#if SERIALIZATION4
+        Serialization4.Run();
 #endif
     }
 }
