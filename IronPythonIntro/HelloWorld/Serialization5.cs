@@ -1,4 +1,7 @@
-﻿namespace HelloWorld;
+﻿using System;
+using System.IO;
+
+namespace HelloWorld;
 
 internal static class Serialization5
 {
